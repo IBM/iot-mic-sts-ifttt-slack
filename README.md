@@ -5,7 +5,7 @@
 
 # Assistant Watson-Alex
 
-![](img/audio-arch.png)
+![](img/arch-steps.png)
 
 <hr>
 
@@ -25,13 +25,13 @@ After the completion of this tutorial, this application will record your talk an
 
 ## TUTORIAL STEPS
 
-* Step 1 & 6 - [Node-RED](steps/nodered.md)
+* Step 1 & 5 - [Node-RED](steps/nodered.md)
 * Step 2 - [Speech-To-Text](steps/stt.md)
 * Step 3 - [Internet of Things](steps/iot.md)
-* Step 4a - [IFTTT](steps/ifttt.md)
+* Step 4a1 & 4a2 - [IFTTT and Slack](steps/ifttt.md)
 * Step 4b1 - [Tone Analyzer](steps/tone.md)
 * Step 4b2 - [Assistant](steps/conversation.md)
-* Step 5 - [Text-To-Speech](steps/tts.md)
+* Step 4b3 - [Text-To-Speech](steps/tts.md)
 
 
 ## Important Naming Notes

@@ -24,9 +24,15 @@ Create a [Slack account](https://slack.com): `YOUR_SLACK_NAME.slack.com` or make
 
 ![](../img/new-applet.png)
 
-* Click on ![](../img/plus.png) and search for `Webhooks` and click on it.
+* Click on ![](../img/plus.png) icon and search for `Webhooks` and click on it.
 
-* Now click on the next ![](../img/plus.png) and search for `Slack` (you can always choose any other applet that you want). Accept the associated credentials of the Slack. Then follow the steps like in the following images:
+![](../img/webhook-search.png)
+
+![](../img/webhook.png)
+
+![](../img/webhook-clicked.png)
+
+* Enter event name. Follow the steps like in the following images:
 
 ![](../img/turnon1.png)
 
@@ -34,6 +40,13 @@ Create a [Slack account](https://slack.com): `YOUR_SLACK_NAME.slack.com` or make
 
 ![](../img/turnon3.png)
 
+* Now click on the next ![](../img/plus.png) icon and search for `Slack` (you can always choose any other applet that you want). Accept the associated credentials of the Slack.
+
+![](../img/then-plus.png)
+
+![](../img/slack.png)
+
+<hr>
 
 #### Apply the same way for the rest of the events. The events in this tutorial are:
 
