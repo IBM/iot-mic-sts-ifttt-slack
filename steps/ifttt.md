@@ -24,7 +24,7 @@ Create a [Slack account](https://slack.com): `YOUR_SLACK_NAME.slack.com` or make
 
 ![](../img/new-applet.png)
 
-* Click on <img src="../img/plus.png" width="200" height="250"> icon and search for `Webhooks` and click on it.
+* Click on <img src="../img/plus.png" width="45" height="50"> icon and search for `Webhooks` and click on it.
 
 ![](../img/webhook-search.png)
 
@@ -40,7 +40,7 @@ Create a [Slack account](https://slack.com): `YOUR_SLACK_NAME.slack.com` or make
 
 ![](../img/turnon3.png)
 
-* Now click on the next <img src="../img/plus.png" width="200" height="250"> icon and search for `Slack` (you can always choose any other applet that you want). Accept the associated credentials of the Slack.
+* Now click on the next <img src="../img/plus.png" width="45" height="50"> icon and search for `Slack` (you can always choose any other applet that you want). Accept the associated credentials of the Slack.
 
 ![](../img/then-plus.png)
 
