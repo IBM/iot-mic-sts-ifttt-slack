@@ -5,7 +5,7 @@
 
 # Coffee Brewing IoT
 
-![The diagram architecture is getting updated, will be post soon.]()
+> The diagram architecture is getting updated, it will be posted soon.
 
 <hr>
 
@@ -17,7 +17,7 @@ This pattern uses the Speech to Text, Text to Speech and IoT Platform to take in
 
 After the completion of this tutorial, this application will record your talk and send it over to Watson's services to retrieve, based on your request, the weather data of a city.. Or can send commands and receive responses through a conversation, for example, to turn on lights or to play a music and many more. Then IFTTT will trigger events each time there's a request coming from the microphone and it will be posted on the Slack the specific event made.
 
-![](../img/hw-setup.png)
+![](img/hw-setup.png)
 
 If you'd like to watch the videos, I have one video shows how the coffee machine is brewing the coffee after command is sent and the other one does not include the coffee machine but it behaves as if it was there. The reason for the second video is because my hdmi attached screen did not play the sound in the first video.
 
