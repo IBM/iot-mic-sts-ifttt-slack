@@ -1,6 +1,6 @@
 # Internet of Things Platform
 
-The Watson IoT Platform will play multiple roles by taking in the audio and delivering it back, and by sending commands and receiving topics from a hardware device. The published topic will carry out a sentence with it based on a previously sent command.
+The Watson IoT Platform will play multiple roles in this pattern, by taking in the audio and delivering it back, and by sending commands and receiving topics from a hardware device. The published topic will carry out a sentence with it based on a previously sent command. MQTT made it easy to build a communication between the Node-RED, IoT Platform and the device. 
 
 ![](../img/iot-service-catalog.png)
 
