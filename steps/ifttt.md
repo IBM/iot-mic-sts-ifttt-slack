@@ -50,14 +50,12 @@ Create a [Slack account](https://slack.com): `YOUR_SLACK_NAME.slack.com` or make
 
 #### Apply the same way for the rest of the events. The events in this tutorial are:
 
-* `turn_on_lights`
-* `turn_off_lights`
-* `play_music`
-* `jazz`
-* `rock`
+* `brew`
+* `stop_brewing`
+
 
 ![](../img/ifttt-myapplets.png)
 
 <hr>
 
-![](../img/slack-events.png)
+![](../img/slack-coffee.png)
