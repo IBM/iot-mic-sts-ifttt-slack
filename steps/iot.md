@@ -27,7 +27,7 @@ After you create the service, open the IoT Platform service and click Launch but
 
 This is Nodemcu version 2 (ESP8266).
 
-![](../img/nodemcu.png)
+![](../img/nodemcu.jpg)
 
 > Additional: This is the Serial Monitor from Arduino IDE that shows the connection, the topics, the message, etc.
 
