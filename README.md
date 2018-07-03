@@ -5,7 +5,7 @@
 
 # Coffee Brewing IoT
 
-> The diagram architecture is getting updated, it will be posted soon.
+![](img/coffee-arch.png)
 
 <hr>
 
