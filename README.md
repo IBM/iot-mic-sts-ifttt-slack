@@ -1,8 +1,4 @@
 
-<b><u>Skill Level</u></b>: Beginner
-<br><b><u>N.B</u></b>: All services used in this repo are Lite plans. Don't forget to star this repo if you like it.
-
-
 # Coffee Brewing IoT
 
 ![](img/coffee-arch.png)
@@ -31,16 +27,20 @@ If you'd like to watch the videos, I have one video shows how the coffee machine
 
 ### Before you begin
 
-* Create an IBM Cloud account if you don't have an existing one: [Sign up](https://console.ng.bluemix.net/registration/?target=/catalog/%3fcategory=watson).
+* Create an IBM Cloud account if you don't have an existing one: [Sign up](https://console.ng.bluemix.net/registration).
+* N.B: All services used in this repo are Lite plans. Don't forget to star this repo if you like it.
+
 
 
 ## TUTORIAL STEPS
 
-* Step 1 & 7 - [Node-RED](steps/nodered.md) (microphone & audio player)
-* Step 2 - [Speech-To-Text](steps/stt.md)
-* Step 3 & 5 - [Internet of Things](steps/iot.md)
-* Step 4 - [IFTTT and Slack](steps/ifttt.md)
-* Step 6 - [Text-To-Speech](steps/tts.md)
+* Step 1 - [Create an IBM Cloud app using the Node-RED Starter application.](steps/nodered.md) (microphone & audio player)
+* Step 2 - [Add Speech-To-Text service from IBM Cloud Catalog.](steps/stt.md)
+* Step 3 & 5 - [Add Internet of Things service from IBM Cloud Catalog.](steps/iot.md)
+* Step 4 - [IFTTT and Slack setups.](steps/ifttt.md)
+* Step 6 - [Add Text-To-Speech service from IBM Cloud Catalog.](steps/tts.md)
+* Step 7 - [Back to Node-RED application to make sure that the microphone and the audio are installed & working.](steps/nodered.md)
+
 
 
 ## Important Naming Notes
