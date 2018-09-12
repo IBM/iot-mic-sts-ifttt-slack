@@ -7,15 +7,19 @@
 
 ## Introduction
 
-The idea behind this project is to provide a hands-on fun workshop using `Node-RED` and Watson's cognitive solutions for audio conversations. Audio tends to have its own challenges and this step-by-step tutorial hopefully can help you enjoy coding and also target your goals through this experience.
+The idea behind this project is to teach you how to build an IoT application with multiple services to send commands and receive responses through audio conversations using Node-RED and Watson cognitive services. While Audio tends to have its own challenges, this code project should help you address those challenges, and have a little fun along the way.
 
-This pattern uses the `Speech to Text`, `Text to Speech` and `IoT Platform` to take in audio sentence and translate that into a command to be sent to a registered device. A registered device is a device that is connected to the IoT Platform and is ready to send topics and receive commands. This device can be at your choice of design, I chose to use a `Nodemcu v2` (`ESP8266` WiFi based) with `MQTT`. You can choose to use any other device with `mqtt` or `http` communications. Between the audio sentence and the command process, there's `IFTTT` to `Slack` messaging going through. Every time a command is sent to the device, this same command will be displayed on Slack channel and after the command will take place, like brewing coffee or turn an led on/off and etc. The device will send sentence that it started the process when it turns on and otherwise when it turns off.
+This project uses the Speech to Text, Text to Speech and IoT Platform services to take an audio sentence and translate it into a command that is sent to a registered device. A registered device is a device that is connected to the IoT Platform and is ready to send topics and receive commands.
 
-After the completion of this simple steps,  this pattern will give you an idea and hands-on on how to build an application with multiple services to send commands and receive responses through a conversation. You can take this pattern to design it differently to do different tasks, for example, to turn lights on/off or to play a music and many more. Then `IFTTT` will trigger events each time there's a request coming from the microphone and it will be posted on the `Slack` the specific event made.
+While there are a number of devices to choose from, I chose to use a Nodemcu v2 (ESP8266 WiFi-based microcomputer) with MQTT. You can choose to use any other device with mqtt or http communications.
 
-N.B: I tried to tie up `Alexa Echo` to take in commands and send it to `IFTTT` then to our code (to behave same as the microphone currently in the design), but there's a known issue that it's not recognizing the `IFTTT` trigger setup.
+Between the audio sentence and the command process, I’ve implemented IFTTT to Slack messaging. Every time a command is sent to the device, this same command will be displayed on a Slack channel after the command completes, such as brewing coffee or turning on or off an LED light.
+
+Then, IFTTT will trigger events each time there's a request coming from the microphone, and it will be posted on the Slack the specific event made. (I tried to use Amazon Echo to take in commands and send it to IFTTT then to our code (to behave same as the microphone currently in the design), but there's a known issue that it's not recognizing the IFTTT trigger setup.)
+
 
 ![](img/hw-setup.jpg)
+
 
 If you'd like to watch the videos, I have one video shows how the coffee machine is brewing the coffee after command is sent and the other one does not include the coffee machine but it behaves as if it was there. The reason for the second video is because my hdmi attached screen did not play the sound in the first video.
 
@@ -36,10 +40,11 @@ If you'd like to watch the videos, I have one video shows how the coffee machine
 
 * Step 1 - [Create an IBM Cloud app using the Node-RED Starter application.](steps/nodered.md) (microphone & audio player)
 * Step 2 - [Add Speech-To-Text service from IBM Cloud Catalog.](steps/stt.md)
-* Step 3 & 5 - [Add Internet of Things service from IBM Cloud Catalog.](steps/iot.md)
+* Step 3 - [Add Internet of Things service from IBM Cloud Catalog.](steps/iot.md)
 * Step 4 - [IFTTT and Slack setups.](steps/ifttt.md)
+* Step 5 - Similar to Step 3, just make sure you have IoT service connected to Node-RED.
 * Step 6 - [Add Text-To-Speech service from IBM Cloud Catalog.](steps/tts.md)
-* Step 7 - [Back to Node-RED application to make sure that the microphone and the audio are installed & working.](steps/nodered.md)
+* Step 7 - [Back to Node-RED application, as done in Step 1, to make sure that the microphone and the audio are installed & working.](steps/nodered.md)
 
 
 
