@@ -8,7 +8,7 @@ Go to [webhooks settings page at IFTTT](https://ifttt.com/services/maker_webhook
 URL: https://maker.ifttt.com/use/<key>
 ```
 
-Paste it in the `http request node` in Node-RED editor and make sure the `Method` in there is selected: `POST`.
+Paste it in the `http request node` in Node-RED Starter's editor and make sure the `Method` in there is selected: `POST`.
 
 <hr>
 

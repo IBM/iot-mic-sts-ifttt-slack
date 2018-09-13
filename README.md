@@ -7,7 +7,7 @@
 
 ## Introduction
 
-The idea behind this project is to teach you how to build an IoT application with multiple services to send commands and receive responses through audio conversations using Node-RED and Watson cognitive services. While Audio tends to have its own challenges, this code project should help you address those challenges, and have a little fun along the way.
+The idea behind this project is to teach you how to build an IoT application with multiple services to send commands and receive responses through audio conversations using Node-RED Starter and Watson cognitive services. While Audio tends to have its own challenges, this code project should help you address those challenges, and have a little fun along the way.
 
 This project uses the Speech to Text, Text to Speech and IoT Platform services to take an audio sentence and translate it into a command that is sent to a registered device. A registered device is a device that is connected to the IoT Platform and is ready to send topics and receive commands.
 
@@ -42,9 +42,9 @@ If you'd like to watch the videos, I have one video shows how the coffee machine
 * Step 2 - [Add Speech-To-Text service from IBM Cloud Catalog.](steps/stt.md)
 * Step 3 - [Add Internet of Things service from IBM Cloud Catalog.](steps/iot.md)
 * Step 4 - [IFTTT and Slack setups.](steps/ifttt.md)
-* Step 5 - Similar to Step 3, just make sure you have IoT service connected to Node-RED.
+* Step 5 - Similar to Step 3, just make sure you have IoT service connected to Node-RED Starter.
 * Step 6 - [Add Text-To-Speech service from IBM Cloud Catalog.](steps/tts.md)
-* Step 7 - [Back to Node-RED application, as done in Step 1, to make sure that the microphone and the audio are installed & working.](steps/nodered.md)
+* Step 7 - [Back to Node-RED Starter application, as done in Step 1, to make sure that the microphone and the audio are installed & working.](steps/nodered.md)
 
 
 
