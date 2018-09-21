@@ -1,7 +1,7 @@
 
 # Coffee Brewing IoT
 
-![](img/coffee-arch.png)
+![](img/coffee-machine-arch-latest.png)
 
 <hr>
 
